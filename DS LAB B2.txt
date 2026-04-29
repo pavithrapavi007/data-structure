@@ -1,0 +1,14 @@
+# -------------------
+print("===LIST EXAMPLE===")
+fruits=["apple","banana","cherry","apple"]
+print("Original list:",fruits)
+# Add element
+fruits.append("orange")
+# Remove element
+if "banana" in fruits:
+fruits.remove("banana")
+# Access ny index
+print("first fruit:",fruits[0])
+# list comperehession
+upper_fruits=[fruit.upper() for fruit in fruits]
+print("Uppercase fruits:",upper_fruits)
